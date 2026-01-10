@@ -1,0 +1,133 @@
+.container {
+    height: 18vh;
+    width: 70vh;
+    display: flex;
+    margin: 1vh;
+    border-radius: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.244);
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.from,
+.to {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Img {
+    height: 3vh;
+    width: 3vh;
+    border-radius: 0.9rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(233, 52, 52, 0.854);
+}
+
+.from-input,
+.to-input {
+    height: 1rem;
+    width: 9rem;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    margin: 0.4vh;
+    outline: none;
+}
+
+#Dropdown {
+    height: 1.2rem;
+    border-radius: 0.4rem;
+    border-color: transparent;
+    padding: 0vh;
+    outline: none;
+}
+
+.imgContainer {
+    height: 1.3rem;
+    width: 8.9vh;
+    margin: 0.5vh;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.headingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 25vh;
+    border-radius: 1.5vh;
+    background-color: rgba(255, 255, 255, 0.301);
+    font-size: 1.3rem;
+}
+
+.currencyIcon {
+    height: 3vh;
+    width: 2.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exchange {
+    height: 5vh;
+    width: 5vh;
+}
+
+.exchangeIconBtn {
+    height: 5vh;
+    width: 5vh;
+    background-color: transparent;
+    border: rgba(255, 255, 255);
+}
+
+
+/* --- Mobile Responsiveness --- */
+@media only screen and (max-width: 626px) {
+
+    .container {
+        width: 70%;
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .input {
+        flex-direction: column;
+    }
+
+    .headingContainer {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .from-input,
+    .to-input {
+        width: 100%;
+        height: 1rem;
+    }
+
+    .exchangeIconBtn {
+        margin: 10px 0;
+    }
+}
